@@ -1,5 +1,495 @@
 {
   "donnees": [
+    {
+      "name": "Couteau",
+      "type": "Item",
+      "position": 
+      {
+        "x": 270,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 150,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Couteau",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 150,
+        "trueHeight": 210
+      },
+      "friend": "CouteauSlot"
+    },
+    {
+      "name": "CouteauSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": 320,
+        "y": -400
+      },
+      "dimension":
+      {
+        "width": 150,
+        "height": 210
+      },
+      "imagesource": "Sprites/Items/Couteau",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 216
+      },
+      "friend": "Couteau"
+    },
+    {
+      "name": "Cuillere",
+      "type": "Item",
+      "position": 
+      {
+        "x": 820,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 80,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Cuillere",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 80,
+        "trueHeight": 200
+      },
+      "friend": "CuillereSlot"
+    },
+    {
+      "name": "CuillereSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": -860,
+        "y": -392
+      },
+      "dimension":
+      {
+        "width": 80,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Cuillere",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": -12
+      },
+      "friend": "Cuillere"
+    },
+    {
+      "name": "Poele",
+      "type": "Item",
+      "position": 
+      {
+        "x": -830,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 130,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Poele",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 250,
+        "trueHeight": 470
+      },
+      "friend": "PoeleSlot"
+    },
+    {
+      "name": "PoeleSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": -820,
+        "y": -20
+      },
+      "dimension":
+      {
+        "width": 250,
+        "height": 470
+      },
+      "imagesource": "Sprites/Items/Poele",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "friend": "Poele"
+    },
+    {
+      "name": "Fouet",
+      "type": "Item",
+      "position": 
+      {
+        "x": 100,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 100,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Fouet",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 190,
+        "trueHeight": 375
+      },
+      "friend": "FouetSlot"
+    },
+    {
+      "name": "FouetSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": -171,
+        "y": -380
+      },
+      "dimension":
+      {
+        "width": 190,
+        "height": 375
+      },
+      "imagesource": "Sprites/Items/Fouet",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 95
+      },
+      "friend": "Fouet"
+    },
+    {
+      "name": "Passoire",
+      "type": "Item",
+      "position": 
+      {
+        "x": -640,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 200,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Passoire",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 260,
+        "trueHeight": 260
+      },
+      "friend": "PassoireSlot"
+    },
+    {
+      "name": "PassoireSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": 601,
+        "y": 72
+      },
+      "dimension":
+      {
+        "width": 260,
+        "height": 260
+      },
+      "imagesource": "Sprites/Items/Passoire",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "friend": "Passoire"
+    },
+    {
+      "name": "Rape",
+      "type": "Item",
+      "position": 
+      {
+        "x": -425,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 150,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Rape",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 290,
+        "trueHeight": 366
+      },
+      "friend": "RapeSlot"
+    },
+    {
+      "name": "RapeSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": 650,
+        "y": -360
+      },
+      "dimension":
+      {
+        "width": 290,
+        "height": 366
+      },
+      "imagesource": "Sprites/Items/Rape",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "friend": "Rape"
+    },
+    {
+      "name": "Rouleau",
+      "type": "Item",
+      "position": 
+      {
+        "x": -227,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 150,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Rouleau",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 260,
+        "trueHeight": 260
+      },
+      "friend": "RouleauSlot"
+    },
+    {
+      "name": "RouleauSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": 855,
+        "y": -396
+      },
+      "dimension":
+      {
+        "width": 260,
+        "height": 260
+      },
+      "imagesource": "Sprites/Items/Rouleau",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "friend": "Rouleau"
+    },
+    {
+      "name": "Casserole",
+      "type": "Item",
+      "position": 
+      {
+        "x": -50,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 120,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Casserole",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 170,
+        "trueHeight": 300
+      },
+      "friend": "CasseroleSlot"
+    },
+    {
+      "name": "CasseroleSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": 816,
+        "y": 32
+      },
+      "dimension":
+      {
+        "width": 170,
+        "height": 300
+      },
+      "imagesource": "Sprites/Items/Casserole",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "friend": "Casserole"
+    },
+    {
+      "name": "Spatule",
+      "type": "Item",
+      "position": 
+      {
+        "x": 465,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 110,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Spatule",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 175,
+        "trueHeight": 300
+      },
+      "friend": "SpatuleSlot"
+    },
+    {
+      "name": "SpatuleSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": -520,
+        "y": -385
+      },
+      "dimension":
+      {
+        "width": 175,
+        "height": 300
+      },
+      "imagesource": "Sprites/Items/Spatule",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 150
+      },
+      "friend": "Spatule"
+    },
+    {
+      "name": "Louche",
+      "type": "Item",
+      "position": 
+      {
+        "x": 645,
+        "y": 420
+      },
+      "dimension":
+      {
+        "width": 100,
+        "height": 200
+      },
+      "imagesource": "Sprites/Items/Louche",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "trueDimension":
+      {
+        "trueWidth": 200,
+        "trueHeight": 350
+      },
+      "friend": "LoucheSlot"
+    },
+    {
+      "name": "LoucheSlot",
+      "type": "Slot",
+      "position": 
+      {
+        "x": -618,
+        "y": 23
+      },
+      "dimension":
+      {
+        "width": 200,
+        "height": 350
+      },
+      "imagesource": "Sprites/Items/Louche",
+      "rotation":
+      {
+        "rX": 0,
+        "rY": 0,
+        "rZ": 0
+      },
+      "friend": "Louche"
+    }
     
   ]
 }
