@@ -37,6 +37,7 @@ public class scrMain : MonoBehaviour
         gameData.playerName = "";
         gameData.count = 0;
         gameData.allElementsInScene = false;
+        isValid = false;
         for(int i = 0; i < limit; i++)
         {
             if(JSON_reader.GetComponent<JSON_reader>().GetType(i) == "Slot")
@@ -85,6 +86,12 @@ public class scrMain : MonoBehaviour
         gameData.count = 0;
         gameData.allElementsInScene = false;
         gameData.playerName = "";
+        Application.Quit();
+    }
+
+    public void QuitGame()
+    {
+        //In case the player leaves without logging in, there is nothing to do but quit the application.
         Application.Quit();
     }
 
