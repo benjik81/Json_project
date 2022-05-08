@@ -37,6 +37,7 @@ public class scrMain : MonoBehaviour
         gameData.playerName = "";
         gameData.count = 0;
         gameData.allElementsInScene = false;
+        gameData.nbErrors = 0;
         isValid = false;
         for(int i = 0; i < limit; i++)
         {
@@ -86,6 +87,7 @@ public class scrMain : MonoBehaviour
         gameData.count = 0;
         gameData.allElementsInScene = false;
         gameData.playerName = "";
+        gameData.nbErrors = 0;
         Application.Quit();
     }
 
@@ -109,6 +111,7 @@ public class scrMain : MonoBehaviour
             Debug.Log("Le joueur existe déjà !");
             data.joueurs[play.name].count = gameData.count;
             data.joueurs[play.name].allElementsInScene = gameData.allElementsInScene;
+            data.joueurs[play.name].nbErrors = gameData.nbErrors;
         }
         else
         {
@@ -127,6 +130,7 @@ public class scrMain : MonoBehaviour
         j.name = gameData.playerName;
         j.count = gameData.count;
         j.allElementsInScene = gameData.allElementsInScene;
+        j.nbErrors = gameData.nbErrors;
         return j;
     }
 
@@ -150,6 +154,7 @@ public class scrMain : MonoBehaviour
         gameData.allElementsInScene = player.allElementsInScene;
         gameData.count = player.count;
         gameData.playerName = player.name;
+        gameData.nbErrors = player.nbErrors;
     }
 
     public void SetName()
@@ -185,6 +190,7 @@ public class scrMain : MonoBehaviour
         gameData.allElementsInScene = false;
         gameData.playerName = "";
         gameData.count = 0;
+        gameData.nbErrors = 0;
         userName.text = "";
     }
 
