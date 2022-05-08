@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class JSON_reader : MonoBehaviour
 {
-    public TextAsset jsonFile;
+    //public TextAsset jsonFile;
+    private string jsonFile;
 
     [System.Serializable]
     public class Donnees
@@ -54,8 +56,9 @@ public class JSON_reader : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        Debug.Log(jsonFile.text);
-        donneesList = JsonUtility.FromJson<DonneesList>(jsonFile.text);
+        string backgroundFilePath = Application.streamingAssetsPath + "/JSON/donnees.json";
+        jsonFile = File.ReadAllText(backgroundFilePath);
+        donneesList = JsonUtility.FromJson<DonneesList>(jsonFile);
     }
 
     public string GetName(int pos)
