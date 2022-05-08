@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e810a9eab73141439b65dcf94c6142f, type: 3}
   m_Name: SaveData
   m_EditorClassIdentifier: 
-  allElementsInScene: 0
-  count: 0
-  playerName: 
+  allElementsInScene: 1
+  count: 10
+  playerName: azery
+  nbErrors: 1
