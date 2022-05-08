@@ -1,0 +1,30 @@
+{
+  "backgrounds": [
+    {
+      "name": "Connexion",
+      "type": "connexion_background",
+      "imagesource": "Sprites/UI/background_connexion"
+    },
+    {
+      "name": "Buttons",
+      "type": "buttons_background",
+      "imagesource": "Sprites/UI/background_buttons"
+    },
+    {
+      "name": "All",
+      "type": "all_background",
+      "imagesource": "Sprites/UI/background"
+    },
+    {
+      "name": "End",
+      "type": "end_background",
+      "imagesource": "Sprites/UI/background_fin"
+    },
+    {
+      "name": "Back",
+      "type": "back_background",
+      "imagesource": "Sprites/UI/Retour"
+    }
+    
+  ]
+}
