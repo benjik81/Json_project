@@ -58,6 +58,7 @@ public class scrEndRewardsBehavior : MonoBehaviour, IPointerClickHandler, IBegin
         Debug.Log("Name slot : " + ScrSlotsRewards.nameSlot + "\n Name object : " + name + "\n TEST : " + name + "Slot");
         if(ScrSlotsRewards.nameSlot != name + "Slot")
         {
+            GameData.nbErrors++;
             rectTransform.anchoredPosition = initialPosition;
             canvasGroup.blocksRaycasts = true;
             rectTransform.sizeDelta = new Vector2(JSON_reader.GetComponent<JSON_reader>().donneesList.donnees[id].dimension.width, JSON_reader.GetComponent<JSON_reader>().donneesList.donnees[id].dimension.height);
