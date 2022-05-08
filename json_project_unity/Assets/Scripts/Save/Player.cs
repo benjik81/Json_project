@@ -8,4 +8,5 @@ public class Player
     public string name;
     public bool allElementsInScene = false;
     public int count = 0;
+    public int nbErrors = 0;
 }
